@@ -1,7 +1,7 @@
 # Flask-RESTful
-studying RESTFull APIs with python / flask
+Studying RESTFull APIs with python / flask
 
-resources:
+Resources:
 
 - pip install flask
 
@@ -9,4 +9,4 @@ resources:
 
 - use postman for testing or any other
 
-Enjoy!
+Enjoy! 😎
