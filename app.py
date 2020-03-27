@@ -7,7 +7,7 @@ from security import authenticate, identity
 
 
 app = Flask(__name__)
-app.secret_key = 'outlive'
+app.secret_key = '' # put the secret key here
 api = Api(app)
 
 jwt = JWT(app, authenticate, identity) # /auth
