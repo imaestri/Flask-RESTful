@@ -21,7 +21,8 @@ class Item(Resource):
         type=float,
         required=True,
         help="This field cannot be left blank!"
-        )
+    )
+    
     
     @jwt_required()
     def get(self, name):
