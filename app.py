@@ -3,12 +3,12 @@ from flask_restful import  Api
 from flask_jwt import JWT
 
 from security import authenticate, identity
-from user import UserRegister
-from item import Item, ItemList
+from resources.user import UserRegister
+from resources.item import Item, ItemList
 
 
 app = Flask(__name__)
-app.secret_key = '' # put the secret key here
+app.secret_key = 'outlive' # put the secret key here
 api = Api(app)
 
 jwt = JWT(app, authenticate, identity) # /auth
