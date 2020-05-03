@@ -9,13 +9,12 @@ Resources:
 
 - pip install flask-JWT
 
-<<<<<<< HEAD
 - pip install flask-SQLAlchemy
 
 - use postman for testing or any other
+
 - use sqlite or any other bd
-=======
+
 - use postman for testing or any other
->>>>>>> e6bc6ca... commit
 
 Enjoy! 😎
