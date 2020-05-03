@@ -31,12 +31,12 @@ class Item(Resource):
         item = ItemModel(name, data['price'])
         
         try:
-            item.insert()
+            item.insert() 
         except:
             return{"message": "An error ocurred inserting the item."}, 500
         
         return item.json(), 201  
-    
+     
 
     def delete(self, name):
         

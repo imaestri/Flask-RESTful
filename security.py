@@ -1,7 +1,7 @@
 from werkzeug.security import safe_str_cmp
 from resources.user import User
 from models.user import UserModel
-
+ 
 
 def authenticate(username, password):
     user = UserModel.find_by_username(username)

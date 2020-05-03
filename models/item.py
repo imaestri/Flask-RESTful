@@ -20,7 +20,7 @@ class ItemModel:
         row = result.fetchone()
         connection.close()
         
-        if row: 
+        if row:  
             return cls(*row)
 
     

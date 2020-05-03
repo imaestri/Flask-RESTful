@@ -12,7 +12,7 @@ app.secret_key = 'outlive' # put the secret key here
 api = Api(app)
 
 jwt = JWT(app, authenticate, identity) # /auth
-
+ 
 
 
     
