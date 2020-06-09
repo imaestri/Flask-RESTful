@@ -15,6 +15,4 @@ Resources:
 
 - use sqlite or any other bd
 
-- use postman for testing or any other
-
 Enjoy! 😎
