@@ -1,7 +1,7 @@
-# Flask-RESTful
+### Flask-RESTful
 Studying RESTFull APIs with python / flask
 
-Resources:
+### Resources:
 
 - pip install flask
 
